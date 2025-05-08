@@ -4,7 +4,7 @@ This project demonstrates the application of **Linear Regression**, **Feature Se
 
 ## Project Structure
 
-- **`boston_housing_regression_analysis.ipynb`**: The main Jupyter Notebook containing the code and explanations for the regression analysis and feature selection.
+- **`Ridge_LASSO_Regression.ipynb`**: The main Jupyter Notebook containing the code and explanations for the regression analysis and feature selection.
 - **`Boston.csv`**: The dataset used for the analysis, containing housing data with features such as crime rate, number of rooms, and tax rate.
 
 ## Dataset Description
@@ -74,7 +74,7 @@ The dataset includes the following columns:
    ```bash
    pip install numpy pandas matplotlib seaborn scikit-learn
 
-2. Open the boston_housing_regression_analysis.ipynb file in Jupyter Notebook or any compatible IDE.
+2. Open the Ridge_LASSO_Regression.ipynb file in Jupyter Notebook or any compatible IDE.
 
 3. Run the cells sequentially to execute the analysis.
 
