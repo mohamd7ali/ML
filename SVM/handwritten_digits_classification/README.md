@@ -1,4 +1,4 @@
-# Number Classification Using SVM
+# Handwritten Digits Classification Using SVM
 This project demonstrates the use of **Support Vector Machines (SVM)** in classifying handwritten digits. It covers the complete workflow—from reading and preprocessing the image data to training various SVM models and evaluating their performance. The dataset used contains grayscale images of handwritten digits. In addition, the project investigates the robustness of these models against noise and rotational distortions. 
 
 ---
