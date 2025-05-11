@@ -27,7 +27,7 @@ The notebook explores different regression techniques to model non-linear relati
 
 ## Notebook Overview
 
-1. **Section 1: Sin(x) and Noise**:
+### **Section 1: Sin(x) and Noise**:
 This section generates a noisy sin(x) function and demonstrates how to model it using different regression techniques:
 
 - SplineTransformer:
@@ -42,19 +42,19 @@ This section generates a noisy sin(x) function and demonstrates how to model it 
     - Uses Gaussian basis functions to model the data.
     - Compares the performance with other methods.
 
-2. **Section 2: Piecewise Polynomial Splines**:
+### **Section 2: Piecewise Polynomial Splines**:
 This section demonstrates how to construct **piecewise polynomial splines** using the `symfit` library. It includes:
 - Defining polynomial segments for different ranges of `x`.
 - Applying continuity, first derivative, and second derivative constraints to ensure smooth transitions between segments.
 - Comparing the performance of models with varying levels of constraints.
 
-3. **Section 3: Smoothing Splines**:
+### **Section 3: Smoothing Splines**:
 This section introduces **smoothing splines** using the `csaps` library. It includes:
 - Exploring the effect of the smoothing parameter (`p`) on the fit.
 - Calculating the Mean Squared Error (MSE) for training and testing data for different values of `p`.
 - Selecting the optimal smoothing parameter based on performance metrics.
 
-4. **Section 4: Bone Mineral Density Case Study**
+### **Section 4: Bone Mineral Density Case Study**
 This section applies the regression techniques to a real-world dataset on **Bone Mineral Density (BMD)**. The dataset includes columns for `age`, `gender`, and `spnbmd`. Key steps include:
 - Data Preprocessing:
     - Handling missing values.
