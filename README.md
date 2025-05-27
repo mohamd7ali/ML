@@ -137,6 +137,7 @@ This repository contains a collection of machine learning projects, each focusin
   - `updated_list.csv`: File containing the scraped housing data links.
   - `requirements.txt`: List of dependencies for the project.
   - `Dockerfile`: Docker configuration for running the project in a containerized environment.
+  - [README.md](Housing_Data_Mining_Price_Prediction/README.md): Detailed documentation.
 - **Usage**:
   1. Run `crawling_1.ipynb` to scrape housing data links.
   2. Use `crawling_2.ipynb` to extract detailed information (price, size, number of rooms) from the links.
