@@ -15,6 +15,7 @@ This repository contains a collection of machine learning projects, each focusin
    - [Ridge & LASSO Regression](#ridge--lasso-regression)
 5. [Spline Analysis](#spline-analysis)
 6. [Support Vector Machines (SVM)](#support-vector-machines-svm)
+7. [Housing Data Mining Price Prediction](#housing-data-mining-price-prediction)
 
 ---
 
@@ -116,6 +117,31 @@ This repository contains a collection of machine learning projects, each focusin
   - `handwritten_digits_classification.ipynb`: Jupyter Notebook for digit classification.
   - `Data-hoda-full.mat`: Dataset used for the analysis.
   - [README.md](SVM/handwritten_digits_classification/README.md): Detailed documentation.
+
+---
+
+## Housing Data Mining Price Prediction
+
+- **Description**: This project focuses on predicting housing prices using machine learning techniques. It includes data crawling, preprocessing, exploratory data analysis, and regression modeling to provide accurate price predictions based on features such as size, number of rooms, and location.
+- **Key Features**:
+  - Web crawling to collect housing data from online sources.
+  - Data preprocessing and cleaning.
+  - Exploratory data analysis (EDA) for insights.
+  - Implementation of regression models for price prediction.
+  - Model evaluation and performance metrics.
+- **Files**:
+  - `crawling_1.ipynb`: Notebook for scraping housing data links.
+  - `crawling_2.ipynb`: Notebook for extracting detailed information from the links.
+  - `Housing_Data_Mining_Price_Prediction.ipynb`: Notebook for data preprocessing, EDA, and regression modeling.
+  - `House_Data.csv`: Dataset containing the cleaned housing data.
+  - `updated_list.csv`: File containing the scraped housing data links.
+  - `requirements.txt`: List of dependencies for the project.
+  - `Dockerfile`: Docker configuration for running the project in a containerized environment.
+- **Usage**:
+  1. Run `crawling_1.ipynb` to scrape housing data links.
+  2. Use `crawling_2.ipynb` to extract detailed information (price, size, number of rooms) from the links.
+  3. Use `Housing_Data_Mining_Price_Prediction.ipynb` to preprocess the data, perform EDA, and train regression models.
+  4. Optionally, use the `Dockerfile` to build and run the project in a containerized environment.
 
 ---
 
